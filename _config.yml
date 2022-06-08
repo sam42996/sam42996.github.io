@@ -1,6 +1,6 @@
 # Site
 repository: sam42996/resume-theme
-favicon: images/favicon.ico
+favicon: images/pfp_crop.png
 
 # Content configuration version
 version: 2
@@ -15,57 +15,44 @@ website: www.sam42996.github.io
 darkmode: false
 
 # Social links
-#twitter_username: facespics
 github_username:  sam42996
-# dribbble_username: jekyll
-# facebook_username: jekyll
-youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
-
-# Additional icon links
-additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
+# youtube_username: 
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is Sam. I am an interdisciplinary creative with an interest in music, technology, and networked art. I'm currently in the process of upgrading my coding skills in NodeJS and Rust. 
-  I am most skilled in: <mark>Creative problem solving</mark> and<mark> making weird avant-garde videos</mark>
+about_profile_image: images/pfp_crop.png
+about_content: |- # this will include new lines to allow paragraphs
+  Hi, my name is Sam. I am an interdisciplinary creative with an interest in technology, music, and networked art.
+ 
+  I'm currently in the process of upgrading my coding skills in NodeJS and Rust. 
+
+  I am most skilled in:  
+            <mark>Creative problem solving</mark> and 
+            <mark>troubleshooting</mark>
 
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
-    content:
+    content:  
       - layout: top-middle
         title: On Air Warning 
-        link: https://www.youtube.com/c/OnAirWarning/videos
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-           <iframe width="560" height="315" src="https://www.youtube.com/embed/QTzBLETHacY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          I'm very grateful to have gotten the chance to grow with this project, in which I got to learn how to use After Effects and Adobe Premiere.  
-        description: | # this will include new lines to allow paragraphs
-           I did the motion graphics, voiceover, original music, and video editing for most of the videos on this YouTube channel. 
 
+           <p><iframe width="560" height="315" src="https://www.youtube.com/embed/QTzBLETHacY" title="OAW Video" frameborder="0" allowfullscreen=""> </iframe> </p>
+
+        quote: 
+          An explainer video for On Air Warning. Check out the rest of the channel for more detailed tutorials.
+        description: | # this will include new lines to allow paragraphs
+          On Air Warning is a 3-light video conference indicator born out of the Work From Home boom of 2020. I have performed a variety of roles as assistant to the CEO, including handling the motion graphics, voiceover, original music, and video editing for the tutorials on OAW's [YouTube channel](https://www.youtube.com/c/OnAirWarning). Check out one of many examples above, and feel free to peruse the product [website](https://onairwarning.com) 
+
+      - layout: top-middle
+        title: Audio Programming in Max/MSP 
+
+          <p><iframe width="560" height="315" src="https://www.youtube.com/embed/bmqW2p5Z6j4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe> </p>
+
+        quote: 
+          A example of my abilities programming in Max/MSP.
+        description: | # this will include new lines to allow paragraphs
+          [Max/MSP](http://cycling74.com) is a visual programming language designed for audiovisual artists. Like many people of a similar ilk, I discovered my interest in coding with the help of Max's friendly layout and detailed documentation. While I've done all of my work in this field as a hobbyist, my immersion in it has strenthened my ability to think in modular terms, which I find gives me an advantage in learning new programming languages efficiently. Feel free to clone [the repo](https://github.com/sam42996/Clown-FX) and try out the program yourself. 
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -75,11 +62,9 @@ content:
         caption: 2016-2020
         sub_title: BA in Music
         quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+          Reed is a small-ish liberal arts college in Portland, Oregon with rigorous academics and a spirit of open-mindedness. 
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
-
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+          My time at Reed was marked by significant growth and transformation. I went in thinking I'd be a Theatre or French major. I ultimately majored in Music. In the process of studying electronic music, I discovered my interest in technology more broadly. This snowballed into a desire to work with computers, which is the reason you're reading this right now. :) 
 
   - title: A Little More About Me
     layout: text
@@ -89,8 +74,6 @@ content:
       - Literature
       - Generative AI Art
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
